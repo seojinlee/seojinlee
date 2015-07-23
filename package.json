@@ -15,5 +15,8 @@
     "less-middleware": "1.0.x",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.1"
   }
 }
