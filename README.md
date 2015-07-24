@@ -1,2 +1,2 @@
 # seojinlee
-This is my site. Hi.
+This is my site. Hello.
