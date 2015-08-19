@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{{> head}}
+		<link rel='stylesheet' href='/stylesheets/aboutme.css'/>
+	</head>
+	<body>
+		{{> navbar}}
+		<div class="fadeIn">
+			<div class="aboutme body">
+				<section>
+					<div class="section-container">
+						<div class="picture"></div>
+						<div class="bio">
+							<h2>WHY I DO WHAT I DO</h2>
+							<hr class="title-underline">
+							<p>Hello, my name is Seojin Lee and currently, I am a second year mechanical engineering student at McMaster University. I've always felt fortunate in that I've always known what it wanted to do. I've always had this love for engineering, takings things apart, learning how it works, making it better. As a kid, I was never satisfied of how things were meant to be used. When I was old enough to understand that not every product can meet my specific needs, rather than settling with the inconvenience, I always tried to make it so that it did (and I still do this). That's what I love about engineering; or rather being in engineering. Being able to create something that specifically caters to me, even if I don't end up using my creation at all, that sense of speciality still excites me to this day. And I don't think this is only exclusive to engineering. Like everyone else, I've gone through lots of hobbies. However programming has been the only one that gives me that same excitement. The internet has been a part of my life ever since I can remember, and ever since I can remember, I've faced the same inconveniences and problems. I don't believe that web development is separate from engineering. I believe that my engineering mindset is pulling me towards this field and my problem solving skills and creativity is what's allowing me to keep interested and making me want to learn more. I don't think web development is just another hobby to me. As I have pursued engineering as my future, I believe web development will keep close to me.</p>
+						</div>
+					</div>
+				</section>
+				{{> footer}}
+			</div>
+		</div>
+	</body>
+</html>

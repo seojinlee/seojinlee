@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{{> head}}
+		<link rel="stylesheet" href="/stylesheets/webdev.css" />
+	</head>
+	<body>
+		{{> navbar}}
+		<div class="fadeIn">
+			<div class="webdev body">
+				<section>
+					<div class="section-container">
+						<div class="tools">
+							<h2>MY TOOLS</h2>
+							<hr class="title-underline">
+							<div class="row icon-row">
+								<div class="col-xs-4 icon"></div>
+								<div class="col-xs-4 icon"></div>
+								<div class="col-xs-4 icon"></div>
+							</div>
+							<div class="row icon-row">
+								<div class="col-xs-4 icon"></div>
+								<div class="col-xs-4 icon"></div>
+								<div class="col-xs-4 icon"></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div class="section-container">
+						<div class="projects">
+							<h2>MY PROJECTS</h2>
+							<hr class="title-underline">
+							<div class="row project">
+								<div class="icon"></div>
+							</div>
+							<div class="row project">
+								<div class="icon"></div>
+							</div>
+							<div class="row project">
+								<div class="icon"></div>
+							</div>
+
+						</div>
+					</div>
+				</section>
+				{{> footer}}
+			</div>
+		</div>
+	</body>
+</html>
