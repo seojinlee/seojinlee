@@ -14,14 +14,14 @@
 							<h2>MY TOOLS</h2>
 							<hr class="title-underline">
 							<div class="row icon-row">
-								<div class="col-xs-4 icon"></div>
-								<div class="col-xs-4 icon"></div>
-								<div class="col-xs-4 icon"></div>
+								<div class="col-xs-4 prev-icon"></div>
+								<div class="col-xs-4 prev-icon"></div>
+								<div class="col-xs-4 prev-icon"></div>
 							</div>
 							<div class="row icon-row">
-								<div class="col-xs-4 icon"></div>
-								<div class="col-xs-4 icon"></div>
-								<div class="col-xs-4 icon"></div>
+								<div class="col-xs-4 prev-icon"></div>
+								<div class="col-xs-4 prev-icon"></div>
+								<div class="col-xs-4 prev-icon"></div>
 							</div>
 						</div>
 					</div>
@@ -32,13 +32,13 @@
 							<h2>MY PROJECTS</h2>
 							<hr class="title-underline">
 							<div class="row project">
-								<div class="icon"></div>
+								<div class="prev-icon"></div>
 							</div>
 							<div class="row project">
-								<div class="icon"></div>
+								<div class="prev-icon"></div>
 							</div>
 							<div class="row project">
-								<div class="icon"></div>
+								<div class="prev-icon"></div>
 							</div>
 
 						</div>
