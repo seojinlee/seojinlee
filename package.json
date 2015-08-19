@@ -13,6 +13,7 @@
     "grunt": "^0.4.5",
     "hjs": "~0.0.6",
     "less-middleware": "1.0.x",
+    "mongoose": "^4.1.2",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0"
   },

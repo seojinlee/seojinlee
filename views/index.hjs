@@ -1,13 +1,197 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ title }}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1>{{ title }}</h1>
-    <p>Welcome, to my site!</p>
-  
-  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-  </body>
+	<head>
+		{{> head}}
+	</head>
+	<body>
+		{{> navbar}}
+		<div class="fadeIn">
+			<div class="header">
+				<div class="header-text">
+					<h1>SEOJIN LEE</h1>
+					<h2>An online portfolio</h2>
+				</div>
+			</div>
+			<div class="main">
+				<div class="row">
+					<div class="col-xs-1"></div>
+					<div class="col-xs-10">
+						<div class="row">
+							<div class="col-xs-6 col-lg-3">
+								<a href="/aboutme" id="aboutme" class="project-link">
+									<div class="icon">
+							          	<div class="browser">
+							            	<img src="/images/browser.png">
+							            	<div class="cover">
+							              		<div class="profile"></div>
+							              		<p>Seojin Lee</p>
+							            	</div>
+							           		<div class="browser-bar"></div>
+							            	<div class="browser-body">
+							             		<div class="browser-side">
+							                		<div class="box"></div>
+							              		</div>
+							              		<div class="browser-main">
+							                		<div class="box"></div>
+							                		<div class="box"></div>
+							              		</div>
+							            	</div>
+							          	</div>
+							        </div>
+							        <div class="description">
+							        	<h3>ABOUT ME</h3>
+							        	<hr>
+							        	<p>Everything you need to know about me</p>
+							        </div>
+							        
+						        </a>
+						    </div>																								
+							<div class="col-xs-6 col-lg-3">
+						        <a href="/engineer" id="engineer" class="project-link">
+						        	<div class="icon">
+						        		<span class="gear"></span>
+						        	</div>
+						        	<div class="description">
+						        		<h3>ENGINEERING</h3>
+						        		<hr>
+						        		<p>Currently studying Mechanical Engineering at McMaster University</p>
+						        	</div>
+						        	
+						        </a>
+				    		</div>
+							<div class="col-xs-6 col-lg-3">
+					        	<a href="/webdev" id="webdev" class="project-link">
+					        		<div class="icon">
+						            	<div class="comp">
+						              		<img src="/images/imac.png" alt="imac">
+						              		<div class="screen">
+						                		<div class="code">
+								                  	<ul>
+									                    <li>&lt;!DOCTYPE=html&gt;</li>
+									                    <li>&lt;<span>html</span>&gt;</li>
+									                    <li><ul>
+									                      	<li>&lt;<span>head</span>&gt;</li>
+									                      	<li><ul>
+										                        <li>&lt;<span>title</span>&gt; Hello world! &lt;<span>/title</span>&gt;</li>
+										                        <li>&lt;<span>meta</span> charset=<span class="string">"utf-8"</span>&gt;</li>
+										                        <li>&lt;<span>meta</span> name=<span class="string">"viewport"</span> content=<span class="string">"width=device-width, initial-scale=0.3"</span>&gt;</li>
+										                        <li>>&lt;<span>link</span> rel=<span class="string">'stylesheet'</span> href=<span class="string">'/stylesheets/style.css'</span>/&gt;</li>
+										                      	</ul>
+									                    	</li>
+									                     	<li>&lt;<span>/head</span>&gt;</li>
+									                      	<li>&lt;<span>body</span>&gt;</li>
+									                        <li><ul>
+									                          	<ul>
+										                            <li>&lt;<span>div</span> class=<span class="string">"container-fluid main"</span>&gt;</li>
+										                            <ul>
+										                              	<li>&lt;<span>div</span> class=<span class="string">"title background"</span>&gt;</li>
+										                              	<ul>
+										                                	<li>&lt;<span>img</span> src=<span class="string">"/images/background.png"</span> alt=<span class="string">"background"</span>&gt;</li>
+										                                	<li>&lt;<span>div</span> class=<span class="string">"container-fluid"</span>&gt;</li>
+										                                	<ul>
+										                                  		<li>&lt;<span>div</span> class=<span class="string">"container-fluid"</span>&gt;</li>
+										                                  		<ul>
+										                                   			<li>&lt;<span>div</span> class=<span class="string">"row title"</span>&gt</li>
+									                                    			<ul>
+									                                      				<li>&lt;<span>h1</span>&gt; SEOJIN LEE &lt;<span>/h1</span>&gt;</li>
+									                                      				<li>&lt;<span>div</span>&gt; class=<span class="string">"jumbotron banner"</span> &lt;<span>/div</span>&gt;</li>
+									                                      				<li>&lt;<span>div</span>&gt; class=<span class="string">"line"</span> &lt;<span>/div</span>&gt;</li>
+									                                    			</ul>
+										                                    		<li>&lt;<span>/div</span>&gt;</li>
+										                                  		</ul>
+									                                  			<li>&lt;<span>/div</span>&gt;</li>
+									                                		</ul>
+									                                		<li>&lt;<span>/div</span>&gt;</li>
+									                              		</ul>
+									                              		<li>&lt;<span>/div</span>&gt;</li>
+									                            	</ul>
+								                            		<li>&lt;<span>/div</span>&gt;</li>
+								                          		</ul>
+										                          <ul>
+										                             <li>&lt;<span>div</span> class=<span class="string">"sideflap"</span>&gt;</li>
+										                              <ul>
+										                                <li>>&lt;<span>div</span> id=<span class="string">"aboutme"</span> class=<span class="string">"container-fluid"</li>
+										                                  <ul>
+										                                    <li>&lt;<span>h1</span>&gt; About Me &lt;<span>/h1</span>&gt;</li>
+										                                    <li>&lt;<span>div</span> class=<span class="string">"browser"</span>&gt;</li>
+										                                      <ul>
+										                                        <li>&lt;<span>img</span> src=<span class="string">"/images/broswer.png"</span>&gt;</li>
+										                                        <li>&lt;<span>div</span> class=<span class="string">"cover"</span>&gt;</li>
+										                                          <ul>
+										                                            <li>&lt;<span>div</span> class=<span class="string">"profile"</span>&gt;</li>
+										                                            <li>&lt;<span>/div</span>&gt;</li>
+										                                            <li>&lt;<span>p</span>&gt; Seojin Lee &lt;<span>/p</span>&gt;</li>
+										                                          </ul>
+										                                        <li>&lt;<span>div</span> class=<span class="string">"browser-bar"</span>&gt;</li>
+										                                        <li>&lt;<span>/div</span>&gt;</li>
+										                                        <li>&lt;<span>div</span> class=<span class="string">"browser-body"</span>&gt;</li>
+										                                          <ul>
+										                                            <li>&lt;<span>div class=<span class="string">"browser-side"</span>&gt;</li>
+										                                              <ul>
+										                                                <li>&lt;<span>div</span> class=<span class="string">"box"</span>&gt; &lt;<span>/div</span>&gt;</li>
+										                                              </ul>
+										                                            <li>&lt;<span>/div</span>&gt;</li>
+										                                            <li>&lt;<span>div</span> class=<span class="string">"browser-main"</span>&gt;</li>
+
+										                                              <ul>
+										                                                <li>&lt;<span>div</span> class=<span class="string">"box"</span>&gt; &lt;<span>/div</span>&gt;</li>
+										                                                <li>&lt;<span>div</span> class=<span class="string">"box"</span>&gt; &lt;<span>/div</span>&gt;</li>
+										                                              </ul>
+										                                            <li>&lt;<span>/div</span>&gt;</li>
+										                                          </ul>
+										                                        <li>&lt;<span>/div</span>&gt;</li>
+										                                      </ul>
+										                                    <li>&lt;<span>/div</span>&gt;</li>
+										                                    <li>&lt;<span>div</span> class=<span class="string">"separator"</span>&gt; &lt;<span>/div</span>&gt;</li>
+										                                  </ul>
+										                                <li>&lt;<span>/div</span>&gt;</li>
+										                              </ul>
+										                             <li>&lt;<span>/div</span>&gt;</li>
+										                          </ul>
+									                        	</ul></li>
+									                      		<li>&lt;<span>/body</span>&gt;</li>
+									                    	</ul></li>
+									                    <li>&lt;<span>/html</span>&gt;</li>
+								                  	</ul>
+						                		</div>
+						              		</div>
+						            	</div>
+						            </div>
+						            <div class="description">
+						            	<h3>WEB DEV</h3>
+						            	<hr>
+						            	<p>Web development is my newly found passion</p>
+						            </div>
+					        	</a>
+					        </div>
+							<div class="col-xs-6 col-lg-3">
+					        	<a href="/contact" id="contact" class="project-link">
+						          	<div class="icon">
+						          		<div class="container">
+							          		<div>
+								          		<img src="/images/phone.png"></img>
+								          		<img src="/images/chat.svg"></img>
+								          	</div>
+								          	<div>
+								          		<img src="/images/mail.svg"></img>
+								          		<img src="/images/calendar.svg"></img>
+								          	</div>
+								          </div>
+						         	</div>
+						         	<div class="description">
+						         		<h3>CONTACT</h3>
+						         		<hr>
+						         		<p>Send me a message!</p>
+						         	</div>
+						         	
+					        	</a>
+			        		</div>
+			        	</div>
+			        </div>
+			        <div class="col-xs-1"></div>
+				</div>
+				{{> footer}}
+			</div>
+		</div>
+	</body>
 </html>
