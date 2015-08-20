@@ -8,43 +8,130 @@
 		{{> navbar}}
 		<div class="fadeIn">
 			<div class="webdev body">
-				<section>
-					<div class="section-container">
-						<div class="tools">
+				<div class="row section section-tools">
+					<div class="col-lg-3 visible-lg"></div>
+					<div class="col-lg-6 col-xs-12">
+						<div class="tools section-container">
 							<h2>MY TOOLS</h2>
 							<hr class="title-underline">
 							<div class="row icon-row">
-								<div class="col-xs-4 prev-icon"></div>
-								<div class="col-xs-4 prev-icon"></div>
-								<div class="col-xs-4 prev-icon"></div>
+								<div class="col-xs-4 prev-icon">
+									<span class="html5"></span>
+								</div>
+								<div class="col-xs-4 prev-icon">
+									<span class="css3"></span>
+								</div>
+								<div class="col-xs-4 prev-icon">
+									<span class="js"></span>
+								</div>
 							</div>
 							<div class="row icon-row">
-								<div class="col-xs-4 prev-icon"></div>
-								<div class="col-xs-4 prev-icon"></div>
-								<div class="col-xs-4 prev-icon"></div>
+								<div class="col-xs-4 prev-icon">
+									<span class="nodejs"></span>
+								</div>
+								<div class="col-xs-4 prev-icon">
+									<span class="grunt"></span>
+								</div>
+								<div class="col-xs-4 prev-icon">
+									<span class="chrome"></span>
+								</div>
 							</div>
 						</div>
 					</div>
-				</section>
-				<section>
-					<div class="section-container">
-						<div class="projects">
+					<div class="col-lg-3 visible-lg"></div>
+				</div>
+
+				<div class="row section section-projects">
+					<div class="row">
+						<div class="col-lg-3 visible-lg"></div>
+						<div class="col-lg-6 col-xs-12">
+							<div class="projects section-container">
 							<h2>MY PROJECTS</h2>
 							<hr class="title-underline">
+							<div class="row"></div>
+
 							<div class="row project">
-								<div class="prev-icon"></div>
-							</div>
-							<div class="row project">
-								<div class="prev-icon"></div>
-							</div>
-							<div class="row project">
-								<div class="prev-icon"></div>
+								<h3>USERSCRIPT</h3>
+								<div class="row u-1">
+									<div class="col-lg-1 visible-lg">
+										<div class="divider"></div>
+									</div>
+									<div class="col-lg-10 col-xs-12 project-content">
+										<a href="https://github.com/tjwls0404/tagpro"></a>
+										<div class="prev-icon">
+											<span class="userscript-icon"></span>
+										</div>
+										<div class="project-description">
+											<h3>Userscripts for the web game "TagPro"</h3>
+											<p>For the past</p>
+										</div>
+									</div>
+									<div class="col-lg-1 visible-lg"></div>
+								</div>
 							</div>
 
+							<div class="row project">
+								<h3>CHROME EXTENSION</h3>
+								<div class="row ce-1">
+									<div class="col-lg-1 visible-lg">
+										<div class="divider"></div>
+									</div>
+									<div class="col-lg-10 col-xs-12 project-content">
+										<a href="https://chrome.google.com/webstore/detail/bffcbhifhdeaaialpegkdakkfjalofom/"></a>
+										<div class="prev-icon">
+											<span class="chatenhancer-icon"></span>
+										</div>
+										<div class="project-description">
+											<h3>Chat Enhancer</h3>
+											<p>Description blah blah blah blahblahblahblah blah blah blah blah blah blahblahblahblahblah blah blah blahblahblahblahblah </p>
+										</div>
+
+									</div>
+									<div class="col-lg-1 visible-lg"></div>
+								</div>
+								<div class="row ce-2">
+									<div class="col-lg-1 visible-lg">
+										<div class="divider"></div>
+									</div>
+									<div class="col-lg-10 col-xs-12 project-content">
+										<a href="#"></a>
+										<div class="prev-icon">
+											<span class="lkcc-extension-icon"></span>
+										</div>
+										<div class="project-description">
+											<h3>LKCC.ca for EM</h3>
+											<p>Description blah blah blah blahblahblahblah blah blah blah blah blah blahblahblahblahblah blah blah blahblahblahblahblah </p>
+										</div>
+									</div>
+									<div class="col-lg-1 visible-lg"></div>
+								</div>
+							</div>
+
+							<div class="row project">
+								<h3>WEBSITE</h3>
+								<div class="row w-1">
+									<div class="col-lg-1 visible-lg">
+										<div class="divider"></div>
+									</div>
+									<div class="col-lg-10 col-xs-12 project-content">
+										<a href="#"></a>
+										<div class="prev-icon">
+											<span class="website-icon"></span>
+										</div>
+										<div class="project-description">
+											<h3>Portfolio Site</h3>
+											<p>Description blah blah blah blahblahblahblah blah blah blah blah blah blahblahblahblahblah blah blah blahblahblahblahblah </p>
+										</div>
+									</div>
+									<div class="col-lg-1 visible-lg"></div>
+								</div>
+							</div>
+							</div>
 						</div>
+						<div class="col-lg-3 visible-lg"></div>
 					</div>
-				</section>
-				{{> footer}}
+					{{> footer}}
+				</div>
 			</div>
 		</div>
 	</body>

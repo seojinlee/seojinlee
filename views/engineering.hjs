@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{{> head}}
+		<link rel="stylesheet" href="/stylesheets/webdev.css" />
+		<link rel="stylesheet" href="/stylesheets/engineering.css" />
+	</head>
+	<body>
+		{{> navbar}}
+		<div class="fadeIn">
+			<div class="engineering body">
+				<div class="row section">
+					<div class="col-lg-3 visible-lg"></div>
+					<div class="col-lg-6 col-xs-12">
+						<div class="projects section-container">
+							<h2>SCHOOL PROJECTS</h2>
+							<hr class="title-underline">
+							<div class="row"></div>
+
+							<div class="row project">
+								<h3>YEAR 2</h3>
+								<div class="row u-1">
+									<div class="col-lg-1 visible-lg">
+										<div class="timeline"></div>
+									</div>
+									<div class="col-lg-10 col-xs-12 project-content">
+										<div href="https://github.com/tjwls0404/tagpro"></div>
+										<div class="prev-icon">
+											<span class="userscript-icon"></span>
+										</div>
+										<div class="project-description">
+											<h3>Userscripts for the web game "TagPro"</h3>
+											<p>For the past</p>
+										</div>
+									</div>
+									<div class="col-lg-1 visible-lg"></div>
+								</div>
+							</div>
+
+							<div class="row project">
+								<h3>YEAR 1</h3>
+								<div class="row ce-1">
+									<div class="col-lg-1 visible-lg">
+										<div class="timeline"></div>
+									</div>
+									<div class="col-lg-10 col-xs-12 project-content">
+										<div href="https://chrome.google.com/webstore/detail/bffcbhifhdeaaialpegkdakkfjalofom/"></div>
+										<div class="prev-icon">
+											<span class="chatenhancer-icon"></span>
+										</div>
+										<div class="project-description">
+											<h3>Chat Enhancer</h3>
+											<p>Description blah blah blah blahblahblahblah blah blah blah blah blah blahblahblahblahblah blah blah blahblahblahblahblah </p>
+										</div>
+
+									</div>
+									<div class="col-lg-1 visible-lg"></div>
+								</div>
+								<div class="row ce-2">
+									<div class="col-lg-1 visible-lg">
+										<div class="timeline"></div>
+									</div>
+									<div class="col-lg-10 col-xs-12 project-content">
+										<div href="#"></div>
+										<div class="prev-icon">
+											<span class="lkcc-extension-icon"></span>
+										</div>
+										<div class="project-description">
+											<h3>LKCC.ca for EM</h3>
+											<p>Description blah blah blah blahblahblahblah blah blah blah blah blah blahblahblahblahblah blah blah blahblahblahblahblah </p>
+										</div>
+									</div>
+									<div class="col-lg-1 visible-lg"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 visible-lg"></div>
+				</div>
+				{{> footer}}
+			</div>
+		</div>
+	</body>
+</html>

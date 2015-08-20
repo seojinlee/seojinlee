@@ -13,16 +13,7 @@ $(document).ready(function(){
 ////////// Parallex header scrolling & navbar scrolling ////////////
 
 	if (['/','/home'].indexOf(window.location.pathname) > -1){
-		var backgroundPosInit = parseInt($header.css('backgroundPositionY'));
-		var scrollFactor;
-
-		$navbar.find('.backdrop').css('opacity', '0.2');
-
-		function adjustScrollFactor(e){
-			var scrollLength = $(document).height() - $window.height();
-			scrollFactor = (100-backgroundPosInit) / scrollLength;
-		}
-		adjustScrollFactor();
+		$navbar.find('.backdrop').css({opacity: '0.2', backgroundColor: '#ffffff'});
 
 		function scrollHeader(e){
 			var scrollHeight = window.scrollY;
@@ -30,8 +21,6 @@ $(document).ready(function(){
 			var headerHeight = mainTop-parseInt($navbar.css('height'));
 			if (scrollHeight < mainTop) {
 				var parallexRatio = 0.2;
-				var newPos = backgroundPosInit + scrollHeight*scrollFactor;
-				$header.css('backgroundPositionY', newPos+'%');
 				$headerText.css('top', -scrollHeight*parallexRatio);
 				$navbar.css('backgroundColor', 'initial');
 				
@@ -45,10 +34,5 @@ $(document).ready(function(){
 			}
 		}
 		window.addEventListener('scroll', scrollHeader);
-		window.addEventListener('resize', adjustScrollFactor);
 	}
-
-	$window.on('beforeunload', function(){
-		alert('hello');
-	});
 });
