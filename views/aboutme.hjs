@@ -2,6 +2,7 @@
 <html>
 	<head>
 		{{> head}}
+		<link rel="stylesheet" href="/aboutme/webdev.css"/>
 	</head>
 	<body>
 		{{> navbar}}
