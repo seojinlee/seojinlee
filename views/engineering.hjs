@@ -17,58 +17,52 @@
 
 							<div class="row project">
 								<h3>YEAR 2</h3>
-								<div class="row u-1">
+								<div class="row year2-1">
 									<div class="col-lg-1 visible-lg">
 										<div class="timeline"></div>
 									</div>
-									<div class="col-lg-10 col-xs-12 project-content">
-										<div href="https://github.com/tjwls0404/tagpro"></div>
+									<div class="col-lg-11 col-xs-12 project-content">
 										<div class="prev-icon">
-											<span class="userscript-icon"></span>
+											<span></span>
 										</div>
 										<div class="project-description">
-											<h3>Userscripts for the web game "TagPro"</h3>
-											<p>For the past</p>
+											<h3>Stairs Mobility Stretcher</h3>
+											<p>With a team of 5, we designed and manufactured a stretcher with the ability to climb stairs without human interaction. Utilized Autodesk Inventor to desgin and assemble individual parts. The parts were 3D printed and laser cut parts from wood and acrylic, and assembled together with a servomotor.</p>
 										</div>
 									</div>
-									<div class="col-lg-1 visible-lg"></div>
 								</div>
 							</div>
 
 							<div class="row project">
 								<h3>YEAR 1</h3>
-								<div class="row ce-1">
+								<div class="row year1-1">
 									<div class="col-lg-1 visible-lg">
 										<div class="timeline"></div>
 									</div>
-									<div class="col-lg-10 col-xs-12 project-content">
-										<div href="https://chrome.google.com/webstore/detail/bffcbhifhdeaaialpegkdakkfjalofom/"></div>
+									<div class="col-lg-11 col-xs-12 project-content">
 										<div class="prev-icon">
-											<span class="chatenhancer-icon"></span>
+											<span></span>
 										</div>
 										<div class="project-description">
-											<h3>Chat Enhancer</h3>
-											<p>Description blah blah blah blahblahblahblah blah blah blah blah blah blahblahblahblahblah blah blah blahblahblahblahblah </p>
+											<h3>Device for Gas Pumps</h3>
+											<p>Designed and produced a device to aid people with disabilities pump gas at the gas station. Worked with a team of 4, and a client: an arthritis paitient. Underwent the Engineering Design Process to come up a list of possible solutions. The best solution was selected based on various testings.</p>
 										</div>
 
 									</div>
-									<div class="col-lg-1 visible-lg"></div>
 								</div>
-								<div class="row ce-2">
+								<div class="row year1-2">
 									<div class="col-lg-1 visible-lg">
 										<div class="timeline"></div>
 									</div>
-									<div class="col-lg-10 col-xs-12 project-content">
-										<div href="#"></div>
+									<div class="col-lg-11 col-xs-12 project-content">
 										<div class="prev-icon">
-											<span class="lkcc-extension-icon"></span>
+											<span></span>
 										</div>
 										<div class="project-description">
 											<h3>LKCC.ca for EM</h3>
-											<p>Description blah blah blah blahblahblahblah blah blah blah blah blah blahblahblahblahblah blah blah blahblahblahblahblah </p>
+											<p>Developed a gear train that will drive a CD-ROM read head at a specified speed. Parts designed in Autodesk Inventor, then printed with a 3D printer. The gears had to be designed with limitations such as the size of the CD-ROM drive and the accuracy of the 3D printer.</p>
 										</div>
 									</div>
-									<div class="col-lg-1 visible-lg"></div>
 								</div>
 							</div>
 						</div>

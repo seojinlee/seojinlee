@@ -55,17 +55,16 @@
 									<div class="col-lg-1 visible-lg">
 										<div class="divider"></div>
 									</div>
-									<div class="col-lg-10 col-xs-12 project-content">
+									<div class="col-lg-11 col-xs-12 project-content">
 										<a href="https://github.com/tjwls0404/tagpro"></a>
 										<div class="prev-icon">
 											<span class="userscript-icon"></span>
 										</div>
 										<div class="project-description">
 											<h3>Userscripts for the web game "TagPro"</h3>
-											<p>For the past</p>
+											<p>To start learning about JavaScript and basic DOM manipulation, I have started wrtiting userscripts that modifies the game's user experience. A userscirpt is a block of JavaScript code that can be injected into the browser. The code then interacts with the client side data, and modifies the information only for the person using the script. Most of the scripts were written to introduce new features not found in the game and to improve the user interface, which were then shared for anyone to use.</p>
 										</div>
 									</div>
-									<div class="col-lg-1 visible-lg"></div>
 								</div>
 							</div>
 
@@ -75,34 +74,32 @@
 									<div class="col-lg-1 visible-lg">
 										<div class="divider"></div>
 									</div>
-									<div class="col-lg-10 col-xs-12 project-content">
+									<div class="col-lg-11 col-xs-12 project-content">
 										<a href="https://chrome.google.com/webstore/detail/bffcbhifhdeaaialpegkdakkfjalofom/"></a>
 										<div class="prev-icon">
 											<span class="chatenhancer-icon"></span>
 										</div>
 										<div class="project-description">
 											<h3>Chat Enhancer</h3>
-											<p>Description blah blah blah blahblahblahblah blah blah blah blah blah blahblahblahblahblah blah blah blahblahblahblahblah </p>
+											<p>All the chat related userscripts were gathered together to create a Chrome Extension for the web game "TagPro". The extension adds an icon to the game's homepage that can be clicked. The extension will then generate a settings page for the user. The script will then save the user settings to Chorme's local storage and before the game starts, it will inject the scripts necessary along with the settings.</p>
 										</div>
 
 									</div>
-									<div class="col-lg-1 visible-lg"></div>
 								</div>
 								<div class="row ce-2">
 									<div class="col-lg-1 visible-lg">
 										<div class="divider"></div>
 									</div>
-									<div class="col-lg-10 col-xs-12 project-content">
+									<div class="col-lg-11 col-xs-12 project-content">
 										<a href="#"></a>
 										<div class="prev-icon">
 											<span class="lkcc-extension-icon"></span>
 										</div>
 										<div class="project-description">
 											<h3>LKCC.ca for EM</h3>
-											<p>Description blah blah blah blahblahblahblah blah blah blah blah blah blahblahblahblahblah blah blah blahblahblahblahblah </p>
+											<p>Re-desgined my church's outdated website and made into a Chrome Extension. When the icon is clicked on the original site, the extension will gather all the necessary data, and inject new HTML/CSS and JavaScript. Then the extension re-organizes the saved data into the new site.</p>
 										</div>
 									</div>
-									<div class="col-lg-1 visible-lg"></div>
 								</div>
 							</div>
 
@@ -112,17 +109,16 @@
 									<div class="col-lg-1 visible-lg">
 										<div class="divider"></div>
 									</div>
-									<div class="col-lg-10 col-xs-12 project-content">
+									<div class="col-lg-11 col-xs-12 project-content">
 										<a href="#"></a>
 										<div class="prev-icon">
 											<span class="website-icon"></span>
 										</div>
 										<div class="project-description">
 											<h3>Portfolio Site</h3>
-											<p>Description blah blah blah blahblahblahblah blah blah blah blah blah blahblahblahblahblah blah blah blahblahblahblahblah </p>
+											<p>My first portfolio site. A static site written with HTML/CSS and JavaScript and features four pages: home, bio, web development and contact. This is the first pure website I created. Hosted on github.io since I had no knowledge of backend web development at the time.</p>
 										</div>
 									</div>
-									<div class="col-lg-1 visible-lg"></div>
 								</div>
 							</div>
 							</div>
