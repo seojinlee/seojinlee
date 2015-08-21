@@ -2,8 +2,6 @@
 <html>
 	<head>
 		{{> head}}
-		<link rel="stylesheet" href="/stylesheets/webdev.css" />
-		<link rel="stylesheet" href="/stylesheets/engineering.css" />
 	</head>
 	<body>
 		{{> navbar}}
@@ -76,6 +74,11 @@
 						</div>
 					</div>
 					<div class="col-lg-3 visible-lg"></div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 visible-sm visible-md">
+						<div class="placeholder"></div>
+					</div>
 				</div>
 				{{> footer}}
 			</div>

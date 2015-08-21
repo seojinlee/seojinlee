@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{{> head}}
+	</head>
+	<body>
+		{{> navbar}}
+		<div class="fadeIn">
+
+			<div class="contact body">
+				<div class="header">
+					<span></span>
+				</div>
+				<div class="mail-info row section">
+					<div class="row">
+						<div class="col-lg-3 visible-lg"></div>
+						<div class="col-lg-6 col-xs-12">
+
+							<div class="info">
+								<h2> SEND ME AN EMAIL! </h2>
+								<hr class="title-underline">
+								<div class="col-xs-6 left">
+									<div class="subject">
+										<h4>SUBJECT</h4>
+										<input id="subject" type="text">
+									</div>
+									<div class="message">
+										<h4>MESSAGE</h4>
+										<textarea id="message"></textarea>
+									</div>
+								</div>
+								<div class="col-xs-6 right">
+									<div class="name">
+										<h4>NAME</h4>
+										<input id="name" type="text">
+									</div>
+									<div class="email">
+										<h4>EMAIL</h4>
+										<input id="email" type="text">
+									</div>
+									<button type="button" class="btn btn-success">Send</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 visible-lg"></div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 visible-sm visible-md">
+							<div class="placeholder"></div>
+						</div>
+					</div>
+					{{> footer}}
+				</div>
+			</div>
+			
+		</div>
+		
+	</body>
+</html>

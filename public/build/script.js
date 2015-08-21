@@ -35,4 +35,39 @@ $(document).ready(function(){
 		}
 		window.addEventListener('scroll', scrollHeader);
 	}
+
+	if('/contact' === window.location.pathname){
+		var $info = $('.info');
+		var mailData = new Object;
+
+		$info.on('click', 'button', function(){
+			mailData.name = $info.find('#name').val();
+			mailData.subject = $info.find('#subject').val();
+			mailData.message = $info.find('#message').val();
+			mailData.email = $info.find('#email').val();
+			console.log(mailData);
+
+			var tag = mailData.name+': '+mailData.email;
+			mailData.subject = mailData.subject+' [ '+tag+' ]';
+			mailData.message = mailData.message+'\n\n'+tag;
+
+			var empty = false;
+			for (i in mailData){
+				if (!mailData[i]) empty = true;
+			}
+
+			if (!empty){
+				$.ajax({
+					type: "POST",
+					url: "/send-mail",
+					data: mailData,
+					success: function(){
+						alert("Message sent!");
+					}
+				});
+				alert("Message sent!");
+			}
+			else alert("One of the inputs are empty! Please fill in completely.")
+		});
+	}
 });

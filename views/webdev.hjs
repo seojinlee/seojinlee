@@ -2,7 +2,6 @@
 <html>
 	<head>
 		{{> head}}
-		<link rel="stylesheet" href="/stylesheets/webdev.css" />
 	</head>
 	<body>
 		{{> navbar}}
