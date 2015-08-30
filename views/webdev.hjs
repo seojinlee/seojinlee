@@ -62,7 +62,7 @@
 										</div>
 										<div class="project-description">
 											<h3>Userscripts for the web game "TagPro"</h3>
-											<p>To start learning about JavaScript and basic DOM manipulation, I have started wrtiting userscripts that modifies the game's user experience. A userscirpt is a block of JavaScript code that can be injected into the browser. The code then interacts with the client side data, and modifies the information only for the person using the script. Most of the scripts were written to introduce new features not found in the game and to improve the user interface, which were then shared for anyone to use.</p>
+											<p>To start learning about JavaScript and basic DOM manipulation, I have started writing userscripts that modifies the game's user experience. A userscirpt is a block of JavaScript code that can be injected into the browser. The code then interacts with the client side data, and modifies the information only for the person using the script. Most of the scripts were written to introduce new features not found in the game and to improve the user interface, which were then shared for anyone to use.</p>
 										</div>
 									</div>
 								</div>
