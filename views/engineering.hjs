@@ -8,8 +8,7 @@
 		<div class="fadeIn">
 			<div class="engineering body">
 				<div class="row section">
-					<div class="col-lg-2 visible-lg"></div>
-					<div class="col-lg-8 col-xs-12">
+					<div class="column">
 						<div class="projects section-container">
 							<h2>SCHOOL PROJECTS</h2>
 							<hr class="title-underline">
@@ -67,15 +66,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-2 visible-lg"></div>
 				</div>
-				<div class="row">
-					<div class="col-xs-12 visible-sm visible-md">
-						<div class="placeholder"></div>
-					</div>
-				</div>
-				{{> footer}}
 			</div>
 		</div>
+		{{> footer}}
 	</body>
 </html>

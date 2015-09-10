@@ -9,8 +9,7 @@
 		<div class="fadeIn">
 			<div class="aboutme body">
 				<div class="row section">
-					<div class="col-lg-3 visible-lg"></div>
-					<div class="col-lg-6 col-xs-12">
+					<div class="column">
 						<div class="section-container">
 							<img src="/images/personal.png" alt="personal">
 							<div class="bio">
@@ -23,10 +22,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-3 visible-lg"></div>
 				</div>
-				{{> footer}}
 			</div>
 		</div>
+		{{> footer}}
 	</body>
 </html>

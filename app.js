@@ -4,6 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var sassMiddleware = require('node-sass-middleware');
 
 // routes directory
 var index = require('./routes/index');
@@ -22,6 +23,14 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(require('less-middleware')(path.join(__dirname, 'public')));
+app.use(
+  sassMiddleware({
+    src: path.join(__dirname, '/public/stylesheets/sass'),
+    dest: path.join(__dirname, '/public/stylesheets'),
+    prefix: '/stylesheets',
+    debug: true
+  })
+);
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/bower_components',  express.static(__dirname + '/bower_components'));
 
