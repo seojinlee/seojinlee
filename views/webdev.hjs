@@ -53,7 +53,20 @@
 											<div class="divider"></div>
 										</div>
 										<div class="col-lg-11 col-xs-12 project-content">
-											<a href="http://tjwls0404.github.io"></a>
+											<div class="prev-icon">
+												<span class="website-icon"></span>
+											</div>
+											<div class="project-description">
+												<h3>Mrs. Party</h3>
+												<p>Currently designing and developing a website for a party planning service called <i>Mrs. Party</i>. The website is hosted on Linux Ubuntu with Node.js and Express. The website will serve as a mainly static site but with a CMS that allows the admin to create/edit/delete content.</p>
+											</div>
+										</div>
+									</div>
+									<div class="row w-2">
+										<div class="col-lg-1 visible-lg">
+											<div class="divider"></div>
+										</div>
+										<div class="col-lg-11 col-xs-12 project-content">
 											<div class="prev-icon">
 												<span class="website-icon"></span>
 											</div>
